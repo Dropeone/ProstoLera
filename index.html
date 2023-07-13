@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+
+	<title>Просто Лера</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/icons/fontawesome/css/style.css">
+	<link rel="stylesheet" href="js/vendors/slick/slick.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="js/vendors/audio/css/styles.css">
+	<link rel="stylesheet" href="js/vendors/swipebox/css/swipebox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+    
+	<!-- SKIN -->
+	<link rel="stylesheet" title="skin4" href="css/skins/skin4.css"/>
+
+</head>
+<body id="nava-radio" class="header2 no-padding">
+
+<!-- HEADER -->
+<header class="no-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="navbar-header pull-left">
+					<!-- Logo -->
+					<a class="navbar-brand" href="index.html"><img src="images/logo-header.png" class="img-responsive" alt=""/></a>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="lang-search pull-right">
+					
+					<a href="https://www.tiktok.com/@prostolera___"><div class="site-tiktok"><img src="images/icon/tiktok.png" alt=""/></div></a>
+					<a href="https://www.youtube.com/channel/UC4kIK3dTRZxxH-qHf_y4V_Q"><div class="site-youtube"><img src="images/icon/youtube.png" alt=""/></div></a>
+					<a href="https://t.me/prostoprostolera"><div class="site-telegram"><img src="images/icon/telegram.png" alt=""/></div></a>
+					<a href="https://vk.com/prostolera_music?trackcode=b9ac4d588ESSndZYbY_-iTvxdyizYprdMX5JPVbzXQ3RNnhdYVh9JThOXmgB9umBIP5ENbFemMkxb0MzXuhHCNwQUUBzUysjMyMuAQ"><div class="site-vk"><img src="images/icon/Vk.png" alt=""/></div></a>
+					<a href="https://www.instagram.com/prostolera___"><div class="site-instagramm"><img src="images/icon/instagram.png" alt=""/></div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- HOME INTRO -->
+<div class="radio-home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 wow fadeInUp" data-wow-duration=".7s">
+				<h3> Мы живём</h3>
+				<div class="play-btns">
+					<a href="#music" class="activeAudio" onClick="togglePlay()"><img src="images/icon/volume-icon.png" alt=""></a>
+					<a href="#music" class="play playAudio" data-attr="playPauseAudio" ></a>
+					<a href="#fff"><img src="images/icon/comment-icon.png" alt=""></a>
+				</div>
+				<div id="music" class="programme-time">Released 2023</div>
+				<h4>Просто Лера</h4>
+				<p>Питеееер! Начинаем готовиться к осени🔥<br> 17 ноября • AURORA</p>
+				<a href="#tic" class="btn">Купить билеты</a>
+			</div>
+		</div>
+	
+		<div class="mainContainer">
+			<div class="container">
+				<div class="containerPlayer">
+					<div id="listContainer" class="playlistContainer">
+						<ul id="playListContainer">
+
+							<li class="activeAudio" data-src="audio/ОставьМеняОдну.mp3">
+								<a href="#">
+									<img src="images/Player/ОставьМеняОдну.jpg" width="90" alt=""/>
+									<h5>Оставь меня одну <span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Светофоры.mp3">
+								<a href="#">
+									<img src="images/Player/Светофоры.jpg" width="90" alt=""/>
+									<h5>Светофоры <span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Лютики.mp3"> 
+								<a href="#">
+									<img src="images/Player/Лютики.jpg" width="90" alt=""/>
+									<h5>Лютики <span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/НеЗвони.mp3"> 
+								<a href="#">
+									<img src="images/Player/НеЗвони.jpg" width="90" alt=""/>
+									<h5>Не Звони <span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							
+							<li data-src="audio/ХолодныйДождь.mp3"> 
+								<a href="#">
+									<img src="images/Player/ХолодныйДождь.jpg" width="90" alt=""/>
+									<h5>Холодный Дождь<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/ЧайкиНадМосквой.mp3"> 
+								<a href="#">
+									<img src="images/Player/Чайки Над Москвой.jpg" width="90" alt=""/>
+									<h5>Чайки над Москвой<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Адик.mp3"> 
+								<a href="#">
+									<img src="images/Player/Адик.jpg" width="90" alt=""/>
+									<h5>Адик<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Инопланетяне.mp3"> 
+								<a href="#">
+									<img src="images/Player/Инопланетяне.jpg" width="90" alt=""/>
+									<h5>Инопланетяне<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Пассажиры.mp3"> 
+								<a href="#">
+									<img src="images/Player/Инопланетяне.jpg" width="90" alt=""/>
+									<h5>Пассажиры<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Хрущевка.mp3"> 
+								<a href="#">
+									<img src="images/Player/Инопланетяне.jpg" width="90" alt=""/>
+									<h5>Хрущёвка<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/СерыеТучи.mp3"> 
+								<a href="#">
+									<img src="images/Player/Инопланетяне.jpg" width="90" alt=""/>
+									<h5>Серые тучи<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Корабли.mp3"> 
+								<a href="#">
+									<img src="images/Player/Инопланетяне.jpg" width="90" alt=""/>
+									<h5>Корабли<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Фильмы.mp3"> 
+								<a href="#">
+									<img src="images/Player/Инопланетяне.jpg" width="90" alt=""/>
+									<h5>Фильмы<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/АнанасовыйСок.mp3"> 
+								<a href="#">
+									<img src="images/Player/Инопланетяне.jpg" width="90" alt=""/>
+									<h5>Ананасовый сок<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Дисконнект.mp3"> 
+								<a href="#">
+									<img src="images/Player/Инопланетяне.jpg" width="90" alt=""/>
+									<h5>Дисконнект<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Феррари.mp3"> 
+								<a href="#">
+									<img src="images/Player/Инопланетяне.jpg" width="90" alt=""/>
+									<h5>Феррари<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							
+							<li data-src="audio/Мотыльки.mp3"> 
+								<a href="#">
+									<img src="images/Player/Мотыльки.jpg" width="90" alt=""/>
+									<h5>Мотыльки<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Провода.mp3"> 
+								<a href="#">
+									<img src="images/Player/Провода.jpg" width="90" alt=""/>
+									<h5>Провода<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Мне20.mp3"> 
+								<a href="#">
+									<img src="images/Player/Мне20.jpg" width="90" alt=""/>
+									<h5>Мне 20<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/ЯПростоВыпала.mp3"> 
+								<a href="#">
+									<img src="images/Player/ЯПростоВыпала.jpg" width="90" alt=""/>
+									<h5>Я просто выпала<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Шмотки.mp3"> 
+								<a href="#">
+									<img src="images/Player/ЯПростоВыпала.jpg" width="90" alt=""/>
+									<h5>Шмотки<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Кеды.mp3"> 
+								<a href="#">
+									<img src="images/Player/ЯПростоВыпала.jpg" width="90" alt=""/>
+									<h5>Кеды<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/ПалатаНомер2.mp3"> 
+								<a href="#">
+									<img src="images/Player/ЯПростоВыпала.jpg" width="90" alt=""/>
+									<h5>Палата номер 2<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Питер-Владивасток.mp3"> 
+								<a href="#">
+									<img src="images/Player/ЯПростоВыпала.jpg" width="90" alt=""/>
+									<h5>Питер-Владивасток<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Пистолет.mp3"> 
+								<a href="#">
+									<img src="images/Player/Пистолеты.jpg" width="90" alt=""/>
+									<h5>Пистолеты<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Луна.mp3"> 
+								<a href="#">
+									<img src="images/Player/ЯПростоВыпала.jpg" width="90" alt=""/>
+									<h5>Луна<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/ЛюбитьТебя.mp3"> 
+								<a href="#">
+									<img src="images/Player/ЯПростоВыпала.jpg" width="90" alt=""/>
+									<h5>Любить тебя<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/ДевочкаСПлеером.mp3"> 
+								<a href="#">
+									<img src="images/Player/ДевочкаСПлеером.jpg" width="90" alt=""/>
+									<h5>Девочка с плеером<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Юность.mp3"> 
+								<a href="#">
+									<img src="images/Player/Юность.jpg" width="90" alt=""/>
+									<h5>Юность<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Сигареты.mp3"> 
+								<a href="#">
+									<img src="images/Player/Сигареты.jpeg" width="90" alt=""/>
+									<h5>Сигареты<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/ПесняПроНГ.mp3"> 
+								<a href="#">
+									<img src="images/Player/ПесняПроНг.jpg" width="90" alt=""/>
+									<h5>Песня про НГ<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+							<li data-src="audio/Отпускаю.mp3"> 
+								<a href="#">
+									<img src="images/Player/Отпускаю.jpg" width="90" alt=""/>
+									<h5>Отпускаю<span>Просто Лера</span></h5>
+								</a>
+							</li>
+
+						</ul>
+					</div>
+
+					<div id="playerContainer">
+						<div id="controlContainer">
+							<ul class="controls">
+								<li>
+									<a class="left" data-attr="prevAudio"></a>
+								</li>
+								<li>
+									<a class="play" data-attr="playPauseAudio"></a>
+								</li>
+								<li>
+									<a class="right" data-attr="nextAudio"></a>
+								</li>
+								<li>
+									<div class="progress">
+										<div data-attr="seekableTrack" class="seekableTrack"></div>
+										<div class="updateProgress"></div>
+									</div>
+								</li>
+								<li>
+									<span data-attr="timer" class="audioTime">0:00</span>
+								</li>
+								<li>
+									<div class="volumeControl">
+										<div class="volume volume1"></div>
+										<input class="bar volume-hidden" id="bar" data-attr="rangeVolume" type="range" min="0" max="1" step="0.1" value="0.7" />
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- HEADER -->
+<header class="header-scroll wow fadeInUp" data-wow-duration=".7s">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="navbar-header pull-left">
+					<!-- Logo -->
+					<a class="navbar-brand" href="index.html"><img src="images/logo-header.png" class="img-responsive" alt=""/></a>
+				</div>
+			</div>
+
+			<div class="col-md-8">
+				<div class="lang-search pull-right">
+					<a href="https://www.tiktok.com/@prostolera___"><div class="site-tiktok"><img src="images/icon/tiktok.png" alt=""/></div></a>
+					<a href="https://www.youtube.com/channel/UC4kIK3dTRZxxH-qHf_y4V_Q"><div class="site-youtube"><img src="images/icon/youtube.png" alt=""/></div></a>
+					<a href="https://t.me/prostoprostolera"><div class="site-telegram"><img src="images/icon/telegram.png" alt=""/></div></a>
+					<a href="https://vk.com/prostolera_music?trackcode=b9ac4d588ESSndZYbY_-iTvxdyizYprdMX5JPVbzXQ3RNnhdYVh9JThOXmgB9umBIP5ENbFemMkxb0MzXuhHCNwQUUBzUysjMyMuAQ"><div class="site-vk"><img src="images/icon/Vk.png" alt=""/></div></a>
+					<a href="https://www.instagram.com/prostolera___"><div class="site-instagramm"><img src="images/icon/instagram.png" alt=""/></div></a>
+				</div>
+
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			
+				<!-- MENU -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">Главная</a></li>
+						<li class="dropdown">
+							<a href="Клип стр 1..html">Видео</a>
+						</li>
+						<li class="dropdown">
+							<a href="#tic">Билеты</a>
+						</li>
+						<li class="dropdown">
+							<a href="Галерея.html">Галерея</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- VIDEO LIST -->
+<div class="video-list-home video-list-radio-home wow fadeInUp" data-wow-duration=".7s">
+	<div class="container-fluid no-padding">
+		<div class="content-head text-center"><span>Всё здесь - 10 ноября 2019 года - Лето 2023</span>Видео и Альбомы</div>
+		<div class="vlist-carousel" >
+
+			<div class="vlist-carousel-li">
+				<a href="Видео - Взрослые.html">
+				<div class="vlist-thumb">
+					<img src="images/home/video/Взрослые.png" class="img-responsive" alt=""/>
+					<div class="vlist-info">
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="vlist-carousel-li">
+				<a href="Видео-Пассажиры.html">
+				<div class="vlist-thumb">
+					<img src="images/home/video/6.jpg" class="img-responsive" alt=""/>
+					<div class="vlist-info">
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="vlist-carousel-li">
+				<a href="Видео-Лютики.html">
+				<div class="vlist-thumb">
+					<img src="images/home/video/5.jpg" class="img-responsive" alt=""/>
+					<div class="vlist-info">
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="vlist-carousel-li">
+				<a href="Видео-Мне 20.html">
+				<div class="vlist-thumb">
+					<img src="images/home/video/3.jpg" class="img-responsive" alt=""/>
+					<div class="vlist-info">
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="vlist-carousel-li" style="margin-left: 66px;">
+				<a href="Видео-Мотыльки.html">
+				<div class="vlist-thumb">
+					<img src="images/home/video/4.jpg" class="img-responsive" alt=""/>
+					<div class="vlist-info">
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="vlist-carousel-li">
+				<a href="Видео-Отпускаю.html">
+				<div class="vlist-thumb">
+					<img src="images/home/video/1.jpg" class="img-responsive" alt=""/>
+					<div class="vlist-info">
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="vlist-carousel-li">
+				<a href="Видео-Мелом.html">
+				<div class="vlist-thumb">
+					<img src="images/home/video/2.jpg" class="img-responsive" alt=""/>
+					<div class="vlist-info">
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="vlist-carousel-li">
+				<a href="Видео-Ананасовый сок.html">
+				<div class="vlist-thumb">
+					<img src="images/home/video/7.jpg" class="img-responsive" alt=""/>
+					<div class="vlist-info">
+					</div>
+				</div>
+				</a>
+			</div>
+
+			<div class="vlist-carousel-li">
+				<a href="Видео-Провода.html">
+				<div class="vlist-thumb">
+					<img src="images/home/video/8.jpg" class="img-responsive" alt=""/>
+					<div class="vlist-info">
+					</div>
+				</div>
+
+				</a>
+			</div>
+		</div>
+		<div id="tic"></div>
+	</div>
+</div>
+
+
+
+<!-- TIMELINE -->
+<div class="home-timeline">
+	<div class="container">
+		<div class="content-head text-center"><span></span>Предстоящие Концерты</div>
+		<div class="timeline-list">
+			<ul>
+				<li class="tl-right">
+					<div class="wow fadeInRightBig" data-wow-duration=".8s">
+						<div class="tl-date"><span class="highlight">24 April</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Автор: Просто Лера</div>
+						<a href="https://belgorod.qtickets.events/40789-prosto-lera-5-iyulya-2022" class="text"><h3>Понедельник 21 ноября 2022, 19:00 </h3></a>
+						<p class="highlight"><img src="images/icon/marker.png" alt=""/> &nbsp; Белгород, Паб Гвозди</p>
+					</div>
+				</li>
+				<li class="tl-left">
+					<div class="wow fadeInLeftBig" data-wow-duration=".8s">
+						<div class="tl-date"><span class="highlight">24 April</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Автор: Просто Лера</div>
+						<a href="https://kursk.qtickets.events/40927-prosto-lera-v-kurske-4-iyulya" class="text"><h3>Вторник 22 ноября 2022, 19:00</h3></a>
+						<p class="highlight"><img src="images/icon/marker.png" alt=""/> &nbsp; Курск, Убежище 13</p>
+					</div>
+				</li>
+				<li class="tl-right">
+					<div class="wow fadeInRightBig" data-wow-duration=".8s">
+						<div class="tl-date"><span class="highlight">24 April</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Автор: Просто Лера</div>
+						<a href="https://redkassa.ru/events/bilety_na_concert_prosto_lera_teplohod?utm_source=artist&utm_medium=link&utm_campaign=lera_teplohod" class="text"><h3>Четверг 6 июля 2023, 18:00</h3></a>
+						<p class="highlight"><img src="images/icon/marker.png" alt=""/> &nbsp; Москва, Ленинградское шоссе, д. 51</p>
+					</div>
+				</li>
+				<li class="tl-left">
+					<div class="wow fadeInLeftBig" data-wow-duration=".8s">
+						<div class="tl-date"><span class="highlight">24 April</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Автор: Просто Лера</div>
+						<a href="https://batterspromo.com/prostolera" class="text"><h3>Пятница 17 ноября 2023, 19:30</h3></a>
+						<p class="highlight"><img src="images/icon/marker.png" alt=""/> &nbsp; Санкт-Петербург, Аврора</p>
+					</div>
+				</li>
+			</ul>
+			<div class="tl-more">Это<span><br>всё</span></div>
+		</div>
+	</div>
+</div >
+
+<!-- NEWS -->
+<div id="fff" class="album-news wow fadeInUp" data-wow-duration=".7s">
+	<div class="container">
+		<div class="content-head text-center" style="margin-top: 20px;">Популярные клипы<p><span>За всё время</p></span></div>
+		<article>
+			<div class="col-md-6">
+				<a href="Видео-Лютики.html">
+					<div class="podcast-thumb">
+						<a href="Видео-Лютики.html"><img src="images/home/video/5.jpg" class="img-responsive" alt=""></a>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-6 news-excerpt">
+				<div class="news-meta" style="margin: 13px -9px 0px;"><span><a href="Клип стр 1..html">Клипы</a></span> | <span>Автор: Просто Лера</span></div>
+				<h4><a href="Видео-Лютики.html" style="position: absolute; top: 60px;">Лютики</a></h4>
+				<p style="margin:  80px 0 0px;">Я лежу на заброшенной улице <br>
+					В переходах, раздавленный Сникерсом <br>
+					Меня больше никто не заслуживает <br>
+					Даже ты с миллионами долларов…</p>
+				<a href="Видео-Лютики.html" class="bttn" style="top: 60px;">Подробнее</a>
+			</div>
+		</article>
+
+		<article>
+			<div class="col-md-6">
+				<a href="Видео-Инопланетяне.html">
+					<div class="podcast-thumb">
+						<a href="Видео-Инопланетяне.html"><img src="images/home/video/10.jpg" class="img-responsive" alt=""></a>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-6 news-excerpt">
+				<div class="news-meta" style="margin: 13px -9px 0px;"><span><a href="Клип стр 1..html">Клипы</a></span> | <span>Автор: Просто Лера</span></div>
+				<h4><a href="Видео-Инопланетяне.html" style="position: absolute; top: 60px;">Инопланетяне</a></h4>
+				<p style="margin:  80px 0 0px;">Я хочу стать больше для тебя, чем просто другом <br>
+					Оставаться той же сумасшедшей, пьяной дурой<br>
+					Мечтать с тобой о самой скучной жизни на земле<br>
+					В прокуренной квартире…</p>
+				<a href="Видео-Инопланетяне.html" class="bttn" style="top: 60px;">Подробнее</a>
+			</div>
+		</article>
+
+		<article>
+			<div class="col-md-6">
+				<a href="Видео-Оставь Меня Одну.html">
+					<div class="podcast-thumb">
+						<a href="Видео-Оставь Меня Одну.html"><img src="images/home/video/9.jpg" class="img-responsive" alt=""></a>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-6 news-excerpt">
+				<div class="news-meta" style="margin: 13px -9px 0px;"><span><a href="Клип стр 1..html">Клипы</a></span> | <span>Автор: Просто Лера</span></div>
+				<h4><a href="Видео-Оставь Меня Одну.html" style="position: absolute; top: 60px;">Оставь меня одну</a></h4>
+				<p style="margin:  80px 0 0px;">Сегодня я останусь одна<br>
+					Сегодня буду много молчать<br>
+					Удалю все твои голоса<br>
+					В моём телефоне…</p>
+				<a href="Видео-Оставь Меня Одну.html" class="bttn" style="top: 60px;">Подробнее</a>
+			</div>
+		</article>
+	</div>
+</div>
+
+
+
+<!-- FOOTER -->
+<footer class="wow fadeInUp" data-wow-duration=".7s">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="images/logo-header.png" class="footer-logo" alt="">
+				<div class="contact-info">
+					<p><img src="images/icon/01.png" alt=""/>Минск</p>
+					<a href="https://t.me/prostoprostolera"><p><img src="images/icon/ТЕЛЕГРАММ.png" alt=""/>Телеграмм</p></a>
+					<a href="https://vk.com/prostolera_music?trackcode=b9ac4d588ESSndZYbY_-iTvxdyizYprdMX5JPVbzXQ3RNnhdYVh9JThOXmgB9umBIP5ENbFemMkxb0MzXuhHCNwQUUBzUysjMyMuAQ"><p><img src="images/icon/ВК.png" alt=""/>Вконтакте</p></a>
+					<a href="https://www.instagram.com/prostolera___"><p><img src="images/icon/ИНСТА.png" alt=""/>Инстраграм</p></a>
+					<a href="https://www.youtube.com/channel/UC4kIK3dTRZxxH-qHf_y4V_Q"><p><img src="images/icon/ЮТУБ.png" alt=""/>Ютуб</p></a>
+					<a href="https://www.tiktok.com/@prostolera___"><p><img src="images/icon/ТИКТОК.png" alt=""/>Тикток</p></a>
+					<p><img src="images/icon/03.png" alt=""/>prostolera.collab@yandex.ru</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<h4></h4>
+				
+			</div>
+			<div class="col-md-4">
+				<h4></h4>
+
+				<ul class="footer-gallery">
+					<li><a href="Галерея.html"><img src="images/other/2/1.jpg" class="img-responsive" alt=""/></a></li>
+					<li><a href="Галерея.html"><img src="images/other/2/2.jpg" class="img-responsive" alt=""/></a></li>
+					<li><a href="Галерея.html"><img src="images/other/2/3.jpg" class="img-responsive" alt=""/></a></li>
+					<li><a href="Галерея.html"><img src="images/other/2/4.jpg" class="img-responsive" alt=""/></a></li>
+					<li><a href="Галерея.html"><img src="images/other/2/5.jpg" class="img-responsive" alt=""/></a></li>
+					<li><a href="Галерея.html"><img src="images/other/2/6.jpg" class="img-responsive" alt=""/></a></li>
+				</ul>
+				
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="row copyright">
+			<div class="col-md-12 text-center">
+				<p>&copy; 2023  Просто Лера, разработан Dropeone.</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+<!-- Javascript =============================-->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vendors/wow.min.js"></script>
+<script src="js/vendors/slick/slick.min.js"></script>
+<script src="js/vendors/tweecool.js"></script>
+<script src="js/vendors/audio.js"></script>
+<script src="js/vendors/jquery.countdown.min.js"></script>
+<script src="js/vendors/swipebox/js/jquery.swipebox.min.js"></script>
+<script src="js/vendors/jquery.easing.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/vendors/audio/mediaelement-and-player.min.js"></script>
+<script src="js/vendors/audio/main.js"></script>
+
+<script src="js/vendors/isotope/isotope.pkgd.js"></script>
+<script src="js/vendors/isotope/main.js"></script>
+
+</body>
+</html>
