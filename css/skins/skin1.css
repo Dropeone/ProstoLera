@@ -1,0 +1,234 @@
+.single-artist-meta {
+	color: #e81356;
+}
+
+.single-social li a:hover {
+	color: #e81356;
+}
+
+.highlight, a.highlight {
+	color: #e81356;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	background: #e81356 !important;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #e81356 !important;
+}
+
+.btn-play {
+	border: 2px solid #e81356;
+}
+
+.artists-content h4 {
+    color: #e81356;
+}
+
+.btn-play:hover {
+	background: #e81356;
+	border: 2px solid #e81356;
+}
+
+.btn-play span {
+	color: #e81356;
+}
+
+.item ul.active {
+	border-bottom: 1px solid #e81356;
+}
+
+.item-active {
+	border-bottom: 1px solid #e81356;
+}
+
+.item ul.active .title {
+	color: #e81356;
+}
+
+.item ul.active .btn-play {
+	color: #e81356;
+}
+
+.btn {
+	border: 2px solid #e81356;
+}
+
+.btn:hover {
+	background: #e81356;
+}
+
+.single-album p.lead span {
+	color: #e81356;
+}
+
+.album-cat {
+	color: #e81356;
+}
+
+.gallery-item-filter li a:hover,
+.gallery-item-filter li a.active {
+	color: #e81356;
+}
+
+.item-paging > li a:hover,
+.item-paging > li.active a {
+	color: #e81356;
+}
+
+.news-excerpt .news-meta span a {
+	color: #e81356;
+}
+
+.news-excerpt h4 a:hover {
+	color: #e81356;
+}
+
+.bttn {
+	border: 2px solid #e81356;
+}
+
+.bttn:hover {
+	background: #e81356;
+}
+
+.pp-content h6 a:hover {
+	color: #e81356;
+}
+
+.site-lang:hover {
+	color: #e81356;
+}
+
+.nav > li > a:hover,
+.nav > li.active > a {
+	color: #e81356;
+}
+
+.single-paging a:hover {
+	color: #e81356;
+}
+
+.reply a:hover {
+	color: #e81356;
+}
+
+.side-widget a:hover {
+	color: #e81356;
+}
+
+.gallery-item2 span {
+	color: #e81356;
+}
+
+.gallery-item2 .bttn-play {
+	border: 2px solid #e81356;
+}
+
+.gallery-item2 .bttn-play:hover {
+	background-color: #e81356;
+}
+
+.footer-social a:hover {
+	color: #e81356;
+}
+
+.slick-dots li.slick-active button {
+	background: #e81356;
+	border: 2px solid #e81356;
+}
+
+#listContainer li a h5 span {
+	color: #e81356;
+}
+
+input[type="range"] {
+	background: #e81356 !important;
+}
+
+input[type=range]::-moz-range-thumb {
+	border: 1px solid #e81356;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	border: 1px solid #e81356;
+}
+
+input[type=range]::-ms-thumb {
+	border: 1px solid #e81356;
+}
+
+.progress .updateProgress {
+	background-color: #e81356;
+}
+
+.artist-home h2 {
+	color: #e81356;
+}
+
+.artist-about h4 {
+	color: #e81356;
+}
+
+.home-timeline .content-head {
+	color: #e81356;
+}
+
+.tl-right:after {
+	background-color: #e81356;
+}
+
+.tl-left:after {
+	background-color: #e81356;
+}
+
+.timeline-list li:hover:before {
+	background-color: #e81356;
+}
+
+.tl-more {
+	border: 2px solid #e81356;
+}
+
+.home-artist-gallery .content-head {
+	color: #e81356;
+}
+
+.home-event-info .lead span {
+	color: #e81356 !important;
+}
+
+.btn-gray:hover {
+	background: #e81356;
+	border-color: #e81356 !important;
+}
+
+.home-band-gallery .gallery-item-filter li a:hover,
+.home-band-gallery .gallery-item-filter li a.active {
+	color: #e81356 !important;
+}
+
+.sb-form input {
+	border-bottom: 2px solid #e81356;
+}
+
+.navbar-nav > li > .dropdown-menu a:hover {
+	color: #e81356;
+}
+
+.artists-artists .aa-overlay {
+	background-color:rgba(232,19,86,0.8);
+}
+
+.ag-overlay {
+	background-color:rgba(232,19,86,0.8);
+}
+
+.ppt-overlay {
+	background-color:rgba(232,19,86,0.8);
+}
+
+.footer-gallery li a:after {
+	background-color:rgba(232,19,86,0.8);
+}

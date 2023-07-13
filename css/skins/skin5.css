@@ -1,0 +1,234 @@
+.single-artist-meta {
+	color: #fe0000;
+}
+
+.single-social li a:hover {
+	color: #fe0000;
+}
+
+.highlight, a.highlight {
+	color: #fe0000;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	background: #fe0000 !important;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #fe0000 !important;
+}
+
+.btn-play {
+	border: 2px solid #fe0000;
+}
+
+.btn-play:hover {
+	background: #fe0000;
+	border: 2px solid #fe0000;
+}
+
+.btn-play span {
+	color: #fe0000;
+}
+
+.artists-content h4 {
+    color: #fe0000;
+}
+
+.item ul.active {
+	border-bottom: 1px solid #fe0000;
+}
+
+.item-active {
+	border-bottom: 1px solid #fe0000;
+}
+
+.item ul.active .title {
+	color: #fe0000;
+}
+
+.item ul.active .btn-play {
+	color: #fe0000;
+}
+
+.btn {
+	border: 2px solid #fe0000;
+}
+
+.btn:hover {
+	background: #fe0000;
+}
+
+.single-album p.lead span {
+	color: #fe0000;
+}
+
+.album-cat {
+	color: #fe0000;
+}
+
+.gallery-item-filter li a:hover,
+.gallery-item-filter li a.active {
+	color: #fe0000;
+}
+
+.item-paging > li a:hover,
+.item-paging > li.active a {
+	color: #fe0000;
+}
+
+.news-excerpt .news-meta span a {
+	color: #fe0000;
+}
+
+.news-excerpt h4 a:hover {
+	color: #fe0000;
+}
+
+.bttn {
+	border: 2px solid #fe0000;
+}
+
+.bttn:hover {
+	background: #fe0000;
+}
+
+.pp-content h6 a:hover {
+	color: #fe0000;
+}
+
+.site-lang:hover {
+	color: #fe0000;
+}
+
+.nav > li > a:hover,
+.nav > li.active > a {
+	color: #fe0000;
+}
+
+.single-paging a:hover {
+	color: #fe0000;
+}
+
+.reply a:hover {
+	color: #fe0000;
+}
+
+.side-widget a:hover {
+	color: #fe0000;
+}
+
+.gallery-item2 span {
+	color: #fe0000;
+}
+
+.gallery-item2 .bttn-play {
+	border: 2px solid #fe0000;
+}
+
+.gallery-item2 .bttn-play:hover {
+	background-color: #fe0000;
+}
+
+.footer-social a:hover {
+	color: #fe0000;
+}
+
+.slick-dots li.slick-active button {
+	background: #fe0000;
+	border: 2px solid #fe0000;
+}
+
+#listContainer li a h5 span {
+	color: #fe0000;
+}
+
+input[type="range"] {
+	background: #fe0000 !important;
+}
+
+input[type=range]::-moz-range-thumb {
+	border: 1px solid #fe0000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	border: 1px solid #fe0000;
+}
+
+input[type=range]::-ms-thumb {
+	border: 1px solid #fe0000;
+}
+
+.progress .updateProgress {
+	background-color: #fe0000;
+}
+
+.artist-home h2 {
+	color: #fe0000;
+}
+
+.artist-about h4 {
+	color: #fe0000;
+}
+
+.home-timeline .content-head {
+	color: #fe0000;
+}
+
+.tl-right:after {
+	background-color: #fe0000;
+}
+
+.tl-left:after {
+	background-color: #fe0000;
+}
+
+.timeline-list li:hover:before {
+	background-color: #fe0000;
+}
+
+.tl-more {
+	border: 2px solid #fe0000;
+}
+
+.home-artist-gallery .content-head {
+	color: #fe0000;
+}
+
+.home-event-info .lead span {
+	color: #fe0000 !important;
+}
+
+.btn-gray:hover {
+	background: #fe0000;
+	border-color: #fe0000 !important;
+}
+
+.home-band-gallery .gallery-item-filter li a:hover,
+.home-band-gallery .gallery-item-filter li a.active {
+	color: #fe0000 !important;
+}
+
+.sb-form input {
+	border-bottom: 2px solid #fe0000;
+}
+
+.navbar-nav > li > .dropdown-menu a:hover {
+	color: #fe0000;
+}
+
+.artists-artists .aa-overlay {
+	background-color:rgba(254,0,0,0.8);
+}
+
+.ag-overlay {
+	background-color:rgba(254,0,0,0.8);
+}
+
+.ppt-overlay {
+	background-color:rgba(254,0,0,0.8);
+}
+
+.footer-gallery li a:after {
+	background-color:rgba(254,0,0,0.8);
+}
